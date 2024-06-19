@@ -1,3 +1,6 @@
 import "./style.css";
+import { home } from "./pages/Home"
 
-console.log("hello world");
+//getting queryselecting the 3 buttons and add event listener
+
+
