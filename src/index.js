@@ -1,5 +1,5 @@
 import "./style.css";
-import { homepage } from "./pages/Home"
+import displayHomePage from "./pages/Home"
 
 
 //getting queryselecting the 3 buttons and add event listener
@@ -8,6 +8,6 @@ const menu = document.querySelector(".menu");
 const about = document.querySelector(".about")
 
 
-home.addEventListener("click", () => console.log("home loaded"))
+home.addEventListener("click", () => {displayHomePage()})
 menu.addEventListener("click", () => console.log("menu loaded"))
 about.addEventListener("click", () => console.log("about loaded"))
