@@ -1,5 +1,6 @@
 function displayHomePage() {
     const body = document.querySelector(".content");
+    body.innerHTML = ""
     const hero = document.createElement("div");
     hero.classList.add("hero");
 
