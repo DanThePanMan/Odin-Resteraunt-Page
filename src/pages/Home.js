@@ -34,7 +34,7 @@ function displayHomePage() {
     messageTitle.classList.add("messageTitle");
     messageText.classList.add("messageText");
 
-    messageTitle.textContent = "A message to ur customers: ";
+    messageTitle.textContent = "A message to our customers: ";
     messageText.textContent =
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus modi sint dolorem similique quiaratione architecto aut praesentium, ipsum aspernaturobcaecati recusandae, saepe natus? Laudantium quaeratcum fugiat autem doloremque.oremLorem ipsum dolor, sitamet consectetur adipisicing elit. Repellendus modi sintdolorem similique quia ratione architecto autpraesentium, ipsum aspernatur obcaecati recusandae,saepe natus? Laudantium quaerat cum fugiat autemdoloremque.oremLorem ipsum dolor, sit amet consecteturadipisicing elit. Repellendus modi sint doloremsimilique quia ratione architecto aut praesentium, ipsumaspernatur obcaecati recusandae, saepe natus? Laudantiumquaerat cum fugiat autem doloremque.oremLorem ipsumdolor, sit amet consectetur adipisicing elit.Repellendus modi sint dolorem similique quia rationearchitecto aut praesentium, ipsum aspernatur obcaecatirecusandae, saepe natus? Laudantium quaerat cum fugiatautem doloremque.orem";
     messageInner.appendChild(messageTitle);
